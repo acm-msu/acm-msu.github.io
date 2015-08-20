@@ -474,3 +474,27 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+.portfolio-box-badge {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  padding: .5em;
+  background-color: white;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,.8);
+  opacity: 1;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.portfolio-box-badge hr {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.portfolio-box:hover .portfolio-box-badge{
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
