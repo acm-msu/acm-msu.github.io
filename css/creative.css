@@ -498,3 +498,11 @@ body {
   -webkit-transition: opacity .5s;
   transition: opacity .5s;
 }
+
+#mc_embed_signup input.email, #mc_embed_signup input.button{
+  margin: .5em auto;
+}
+
+#mc_embed_signup input.email {
+  color: black;
+}
