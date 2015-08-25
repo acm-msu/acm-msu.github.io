@@ -46,3 +46,47 @@
     new WOW().init();
 
 })(jQuery); // End of use strict
+
+$( document ).ready(function() {
+  $(".event-container").each(
+    function(index, ec){
+      var eventContainer = $( ec );
+
+      var anchorTag = $('<a>');
+      anchorTag.attr('href',eventContainer.attr('data-src-link'))
+      .attr('target','_blank')
+      .addClass('portfolio-box');
+
+      var imgTag = $('<img>');
+      imgTag.attr('src',eventContainer.attr('data-img-src'))
+      .attr('alt', eventContainer.attr('data-event-title'))
+      .addClass('img-responsive')
+
+      var portfolioBadge = $('<div>').append(eventContainer.attr('data-event-title'))
+      .append('<hr>')
+      .append(eventContainer.attr('data-event-date'))
+      .addClass('portfolio-box-badge');
+
+      var caption = $('<div>').addClass('portfolio-box-caption');
+
+      var captionContent = $('<div>').addClass('portfolio-box-caption-content');
+
+      var projectCategory = $('<div>').addClass('project-category text-faded')
+      .append(eventContainer.attr('data-event-type'));
+
+      var projectName = $('<div>').addClass('project-name')
+      .append(eventContainer.attr('data-event-presenter') + ' - ' + eventContainer.attr('data-event-title'))
+      .append('<br>')
+      .append(eventContainer.attr('data-event-date'));
+
+      captionContent.append(projectCategory).append(projectName)
+
+      caption.append(captionContent);
+
+      anchorTag.append(imgTag);
+      anchorTag.append(portfolioBadge);
+      anchorTag.append(caption);
+      eventContainer.append(anchorTag);
+    }
+  );
+});
