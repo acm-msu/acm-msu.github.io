@@ -37,7 +37,16 @@
 </head>
 
 <body id="page-top">
-
+    
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -114,34 +123,15 @@
             <div class="row no-gutter">
 
               <div class="col-lg-4 col-sm-6 event-container"
-              data-src-link="http://acm.msu.edu"
-              data-img-src="img/tech-talks/OpenHack.png"
-              data-event-title="Open Hack"
-              data-event-date="February 18th"
-              data-event-type="Open Hack"
-              data-event-presenter="ACM"
-              ></div>
-
-              <div class="col-lg-4 col-sm-6 event-container"
-              data-src-link="http://www.target.com"
-              data-img-src="img/tech-talks/Target.png"
-              data-event-title="TBA"
-              data-event-date="February 25th"
-              data-event-type="Tech Talk"
-              data-event-presenter="Target"
-              ></div>
-
-              <div class="col-lg-4 col-sm-6 event-container"
-              data-src-link="http://acm.msu.edu"
-              data-img-src="img/tech-talks/OpenHack.png"
-              data-event-title="Open Hack"
+              data-src-link="http://teamcore.usc.edu/pita"
+              data-img-src="img/tech-talks/JamesPita.png"
+              data-event-title="The Life Cycle of the Graduate Student: From Research to Entrepreneurship"
               data-event-date="March 3rd"
-              data-event-type="Open Hack"
-              data-event-presenter="ACM "
+              data-event-type="Tech Talk"
+              data-event-presenter="James Pita"
               ></div>
 
               <div class="col-lg-4 col-sm-6 event-container"
-              data-src-link="http://acm.msu.edu"
               data-img-src="img/tech-talks/TBA.png"
               data-event-title="NO EVENT"
               data-event-date="March 17th"
@@ -150,7 +140,6 @@
               ></div>
               
               <div class="col-lg-4 col-sm-6 event-container"
-              data-src-link="http://acm.msu.edu"
               data-img-src="img/tech-talks/TBA.png"
               data-event-title="TBA"
               data-event-date="March 24th"
@@ -159,10 +148,25 @@
               ></div>
               
               <div class="col-lg-4 col-sm-6 event-container"
-              data-src-link="http://acm.msu.edu"
               data-img-src="img/tech-talks/TBA.png"
               data-event-title="TBA"
               data-event-date="March 31st"
+              data-event-type="TBA"
+              data-event-presenter="TBA"
+              ></div>
+              
+              <div class="col-lg-4 col-sm-6 event-container"
+              data-img-src="img/tech-talks/TBA.png"
+              data-event-title="TBA"
+              data-event-date="April 7th"
+              data-event-type="TBA"
+              data-event-presenter="TBA"
+              ></div>
+              
+              <div class="col-lg-4 col-sm-6 event-container"
+              data-img-src="img/tech-talks/TBA.png"
+              data-event-title="TBA"
+              data-event-date="April 14th"
               data-event-type="TBA"
               data-event-presenter="TBA"
               ></div>
@@ -182,10 +186,18 @@
                 <div class="col-lg-4 col-lg-offset-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:acm@cse.msu.edu">acm@cse.msu.edu</a></p>
+                    <div class="fb-like"
+                            data-href="https://www.facebook.com/acmmsu"
+                            data-layout="standard"
+                            data-action="like"
+                            data-show-faces="true"
+                            data-share="false"></div>
+                    <a href="https://twitter.com/ACM_MSU" class="twitter-follow-button" data-show-count="false">Follow @ACM_MSU</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <hr class="primary">
-                    <p>Co-President: Catherine Dinsmoor<br>Co-President: Jacob Fenton<br>Secretary: Christina Harper<br>Treasurer: Steven Jorgenson<br>Corporate Relations: Jiaming Xu<br>Community Relations: Keaton Coffman<br>Marketing: Jon Lynch<br>Webmaster: Riley Annis</p>
+                    <p>Faculty Advisor: Dr. Richard Enbody<br>Co-President: Catherine Dinsmoor<br>Co-President: Jacob Fenton<br>Secretary: Christina Harper<br>Treasurer: Steven Jorgenson<br>Corporate Relations: Jiaming Xu<br>Corporate Relations: Timothy Kelly<br>Community Relations: Keaton Coffman<br>Marketing: Jon Lynch<br>Webmaster: Riley Annis</p>
                 </div>
             </div>
         </div>
