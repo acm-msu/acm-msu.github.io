@@ -51,6 +51,34 @@ p {
     line-height: 1.5;
 }
 
+/*names and photos*/
+.position{
+    margin: 0px;
+}
+
+.pic_row {
+    display: inline-flex;
+    width: 100%;
+}
+.pic_item {
+    width: 33%;
+}
+
+.profileImg {
+    width: 140px;
+}
+
+/*names and photos responsive*/
+@media(max-width:768px) {
+    .pic_row {
+        display: block;
+    }
+    
+    .pic_item {
+        width: 100%;
+    }
+}
+
 .bg-primary {
     background-color: #27ae60;
 }
