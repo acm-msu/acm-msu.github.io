@@ -61,11 +61,12 @@ p {
     width: 100%;
 }
 .pic_item {
-    width: 33%;
+    width: 33.3%;
 }
 
 .profileImg {
-    width: 140px;
+    width: 145px;
+    height: 200px;
 }
 
 /*names and photos responsive*/
