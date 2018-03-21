@@ -492,6 +492,29 @@ fieldset[disabled] .btn-primary.active {
     color: #fff;
     background: #222;
 }
+.resume-upload-a:hover {
+    cursor: default;
+    text-decoration: none;
+}
+.resume-upload-a {
+    cursor: default;
+    text-decoration: none;
+}
+
+.resume-upload {
+    border-radius: 4px;
+    color: #fff;
+    background-color: #00b25a;
+    width: 150px;
+    margin: 0 auto;
+    padding: 1px;
+    cursor: pointer;
+    transition: all .35s;
+}
+
+.resume-upload:hover {
+    background-color: #1B7842;
+}
 
 img::selection {
     color: #fff;
