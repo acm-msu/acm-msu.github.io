@@ -81,7 +81,7 @@ p {
 }
 
 .event-container {
-    height: 400px;
+/*    height: 400px;*/
 } 
 
 .bg-primary {
@@ -532,6 +532,7 @@ body {
 
 .event-img{
     height: 347px;
+    width: 100%;
 }
 
 .portfolio-box-badge {
