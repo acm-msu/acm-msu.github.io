@@ -74,7 +74,7 @@ p {
     .pic_row {
         display: block;
     }
-    
+
     .pic_item {
         width: 100%;
     }
@@ -82,7 +82,7 @@ p {
 
 .event-container {
 /*    height: 400px;*/
-} 
+}
 
 .bg-primary {
     background-color: #27ae60;
