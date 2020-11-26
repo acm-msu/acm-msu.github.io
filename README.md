@@ -1,1 +1,1 @@
-This website is now inactive. To view the files, go to the archive branch.
+The [MSU engineering website](https://www.egr.msu.edu/studentgroups/association-computing-machinery-acm) still refers to the original URL of the ACM website (https://acm-msu.github.io). Anyone that natigates to to https://acm-msu.github.io will be redirected to https://acm.cse.msu.edu. This repo can essentially be removed when the MSU engineering website is updated with the new link.
